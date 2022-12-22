@@ -500,7 +500,7 @@ header .hdr_outr ul li a:hover {
 
 .searchBox input {
     width: 100%;
-    padding: 10px;
+    padding: 10px 80px 10px 10px;
     outline: none;
     border: none;
     border: 1px solid #c3bfbc;
@@ -947,7 +947,7 @@ header .hdr_outr ul li a:hover {
 }
 
 .dstntn_pgntn {
-    padding-top: 3%;
+    padding-top: 5%;
 }
 
 .dstntn_pgntn .swiper-pagination-2 {
@@ -1016,7 +1016,6 @@ header .hdr_outr ul li a:hover {
     outline: 0;
     color: #fff;
     background-color: transparent;
-    padding: 15px 30px;
     font-size: 30px;
     font-weight: 900;
     cursor: pointer;
@@ -1176,4 +1175,9 @@ footer .logo img {
 .last_row a:hover {
 
     color: #e2a355;
+}
+
+.ftr_inr .cmn_hdr h3 {
+
+    font-weight: 900;
 }

@@ -35,6 +35,19 @@ hamburger.addEventListener('click', () => {
     hamburger.classList.toggle("active");
 });
 
+// Custom Fixed NavBar
+
+
+$(function () {
+    $(window).scroll(function () {
+        if ($(window).scrollTop() > 200) {
+            $("header").addClass("sticky");
+        } else {
+            $("header").removeClass("sticky");
+        }
+    });
+});
+
 
 
 
